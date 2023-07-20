@@ -1,4 +1,4 @@
-# CategorizeNN
+# Category Classfier
 
 "Category Classifier" is a machine learning capable of performing multi-class classification.
 
@@ -99,7 +99,7 @@ However, manually inputting each category for every operation can be cumbersome.
 8: Clothing costs
 
 
-## result for prediction:
+## Result for prediction:
 
 [7 1 1 2 3 6 1 1 6 6 1 1 1 1 8 1 6 6 1]
 
@@ -171,6 +171,3 @@ Detail:
 
 * When the same word was included, the classification worked well.
 * When sendin words that were not included in the training data, it seemed that the payment amount took precedence ford the classification.
-
-# Japanese
-
