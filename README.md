@@ -56,7 +56,7 @@ Test Data:
               
            chocolate    500
            
-　　　 sumika ticket   8000
+           sumika ticket   8000
         
      oneokrock ticket  10000
      
@@ -75,6 +75,8 @@ Test Data:
                 book   1000
                 
              spotify   1440
+
+
              
 
 category:
@@ -108,29 +110,29 @@ Implementation in Python with scikit-learn.
 
 
 
-Algorithm : Random Forest
+* Algorithm : Random Forest
 
-Analyzer : Janome (Japanese morpthological analyzer)
+* Analyzer : Janome (Japanese morpthological analyzer)
 
-Vectorizer : TF-IDF Vectrizer
-
-
-
-
-
-Training data : 100 entries of actual household account app history and credit card statements(past 6 months). ※private data
+* Vectorizer : TF-IDF Vectrizer
 
 
 
 
 
-Test data : 20 entries (excerpt) from the same sources as the training data.
+#### Training data : 100 entries of actual household account app history and credit card statements(past 6 months). ※private data
 
 
 
 
 
-Algorithm (Random Forest):
+#### Test data : 20 entries (excerpt) from the same sources as the training data.
+
+
+
+
+
+#### Algorithm (Random Forest):
 
 
 
