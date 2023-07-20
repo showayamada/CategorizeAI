@@ -44,7 +44,7 @@ Test Data:
            
                 milk    200
                 
-   convenience store   1608
+                convenience store   1608
    
                 rent  50000
                 
@@ -81,22 +81,22 @@ Test Data:
 
 category:
 
-1: grocery store
+1: Grocery bills
 
-2:
+2: Housing costs
 
-3:
+3: Utilities
 
 
-4:
+4: Telephone bill
 
-5:
+5: Daily necessities costs
 
-6:
+6: Leisure costs
 
-7:
+7: Transport ation cost
 
-8:
+8: Clothing costs
 
 
 result for prediction:
