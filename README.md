@@ -10,7 +10,7 @@ However, manually inputting each category for every operation can be cumbersome.
 
 # DEMO
 
-Training Data (Partial excerpt):
+## Training Data (Partial excerpt):
 　　　
     Recipient 　Payment Amount　 Category ID
     
@@ -36,7 +36,7 @@ Training Data (Partial excerpt):
            
 
 
-Test Data:
+## Test Data:
 
           Recipient    Payment Amount
           
@@ -79,7 +79,7 @@ Test Data:
 
              
 
-category:
+## category:
 
 1: Grocery bills
 
@@ -99,7 +99,7 @@ category:
 8: Clothing costs
 
 
-result for prediction:
+## result for prediction:
 
 [7 1 1 2 3 6 1 1 6 6 1 1 1 1 8 1 6 6 1]
 
