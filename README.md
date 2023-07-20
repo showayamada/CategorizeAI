@@ -10,7 +10,7 @@ However, manually inputting each category for every operation can be cumbersome.
 
 # DEMO
 
-## Training Data (Partial excerpt):
+### Training Data (Partial excerpt):
 　　　
     Recipient 　Payment Amount　 Category ID
     
@@ -36,7 +36,7 @@ However, manually inputting each category for every operation can be cumbersome.
            
 
 
-## Test Data:
+### Test Data:
 
           Recipient    Payment Amount
           
@@ -79,7 +79,7 @@ However, manually inputting each category for every operation can be cumbersome.
 
              
 
-## category:
+### Category:
 
 1: Grocery bills
 
@@ -99,7 +99,7 @@ However, manually inputting each category for every operation can be cumbersome.
 8: Clothing costs
 
 
-## Result for prediction:
+### Result for prediction:
 
 [7 1 1 2 3 6 1 1 6 6 1 1 1 1 8 1 6 6 1]
 
