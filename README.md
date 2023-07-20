@@ -30,9 +30,10 @@ Training Data (Partial excerpt):
                
            　zozotown   7140.0       8
             
-   　rakuten pay noma   3520.0       8
+            rakuten pay noma   3520.0       8
     
      　     skyticket  26680.0       6
+           
 
 
 Test Data:
@@ -55,7 +56,7 @@ Test Data:
               
            chocolate    500
            
-        sumika ticket   8000
+　　　 sumika ticket   8000
         
      oneokrock ticket  10000
      
@@ -74,6 +75,7 @@ Test Data:
                 book   1000
                 
              spotify   1440
+             
 
 category:
 
@@ -104,6 +106,8 @@ result for prediction:
 Implementation in Python with scikit-learn.
 
 
+
+
 Algorithm : Random Forest
 
 Analyzer : Janome (Japanese morpthological analyzer)
@@ -111,13 +115,24 @@ Analyzer : Janome (Japanese morpthological analyzer)
 Vectorizer : TF-IDF Vectrizer
 
 
+
+
+
 Training data : 100 entries of actual household account app history and credit card statements(past 6 months). ※private data
+
+
+
 
 
 Test data : 20 entries (excerpt) from the same sources as the training data.
 
 
+
+
+
 Algorithm (Random Forest):
+
+
 
 1, Generate some decision trees from the original dataset.
 
