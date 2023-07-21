@@ -171,3 +171,31 @@ Detail:
 
 * When the same word was included, the classification worked well.
 * When sendin words that were not included in the training data, it seemed that the payment amount took precedence ford the classification.
+
+# 要約
+「カテゴリ分類器」は、他クラス分類ができる機械学習です。
+
+### --- 背景 ---
+
+　アプリで家計簿をつけるにあたって、支出や支払先、カテゴリを入力して、カテゴリ別に一覧を見ることができる機能があります。
+
+　しかし、いろいろな項目を入力する手間が面倒に感じ、何度も家計簿をつける習慣を続けることができませんでした。そこで、最低限の入力で、カテゴリを自動で振り分けることができれば、手軽に家計簿をつけられるのではないかと思いつき、このカテゴリ分類器の作成に取りかかりました。
+
+### --- 実装 ---
+
+　python、scikit-leanで実装し、
+
+ analyzerとして、janome、
+
+ vectorizerとして、TF-IDF vectrizerを使用します。
+
+ * 教師データ：個人使用の、家計簿アプリの履歴100件、クレジットカード利用明細（過去6か月）
+ * テストデータ：同上　20件（抜粋）
+
+### --- 評価 ---
+　精度を高めるためには、ワードを網羅的に学習させる必要があり、大きな教師データを用いるべきだと考えられます。
+
+ しかし、個人使用の範囲内であれば、支出のイレギュラーは極めて少ないと考えられるので、実用可能なシステムだと評価します。
+
+
+
