@@ -163,7 +163,7 @@ Install janome with pip command.
 !pip install janome
 ```
 
-# Evalueation
+# Evaluation
 
 To improve accuracy, it is considerd necessary to have a large training dataset that covers a wide range of words comprehensively. However, for personal use within a limited scope, this model may still be practical, as people tend to use  expenses within their regular routines and not do drastically different shopping.
 
