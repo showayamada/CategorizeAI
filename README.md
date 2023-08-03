@@ -12,91 +12,57 @@ However, manually inputting each category for every operation can be cumbersome.
 
 ### Training Data (Partial excerpt):
 　　　
-    Recipient 　Payment Amount　 Category ID
-    
-    etc sapporominami    910.0       7
-
-                  bag  10510.0       8
-                  
-                 milk    200.0       1
-                 
-    convenience store   1608.0       1
-    
-    convenience store   1288.0       1
-    
-                 ...      ...     ...
-                 
-              　eneos    623.0       7
-               
-           　zozotown   7140.0       8
-            
-            rakuten pay noma   3520.0       8
-    
-     　     skyticket  26680.0       6
+| Recipient        | Payment Amount | Category ID |
+| ---------------- | -------------- | ----------- |
+|etc sapporominami | 910.0          | 7           |
+|bag               | 10510.0        | 8           |                  
+|milk              | 200.0          | 1           |                 
+|convenience store | 1608.0         | 1           |
+|convenience store | 1288.0         | 1           |
+|   ...            | ...            | ...         |
+|eneos             | 623.0          | 7           |
+|zozotown          | 7140.0         | 8           |
+|rakuten pay noma  | 3520.0         | 8           |
+| skyticket        | 26680.0        | 6           |
            
 
 
 ### Test Data:
 
-          Recipient    Payment Amount
-          
-           etc kunimi    870
-           
-                milk    200
-                
-                convenience store   1608
-   
-                rent  50000
-                
-               water   5000
-               
-              ticket   7000
-              
-              kitaka   1490
-              
-           chocolate    500
-           
-           sumika ticket   8000
-        
-     oneokrock ticket  10000
-     
-        seven eleven    300
-        
-         family mart    500
-         
-            any café   2000
-            
-               pizza   3000
-               
-            zozotown   5000
-            
-           mini stop    300
-           
-                book   1000
-                
-             spotify   1440
+|Recipient        |  Payment Amount |
+|-----------      |-----------------|
+|etc kunimi       |   870           |
+|milk             |200              |
+|convenience store|   1608          |
+|rent             | 50000           | 
+|water            |  5000           |
+|ticket           | 7000            |
+|kitaka           |  1490           |
+|    chocolate    | 500             |
+|  sumika ticket  | 8000            |
+|oneokrock ticket | 10000           |
+|seven eleven     |  300            |
+| family mart     | 500             |
+| any café        | 2000            |
+|  pizza          | 3000            |
+| zozotown        | 5000            |
+|  mini stop      | 300             |
+|  book           | 1000            |
+| spotify         | 1440            |
 
 
              
 
 ### Category:
 
-1: Grocery bills
-
-2: Housing costs
-
-3: Utilities
-
-
-4: Telephone bill
-
-5: Daily necessities costs
-
-6: Leisure costs
-
-7: Transport ation cost
-
-8: Clothing costs
+| 1: | Grocery bills |
+| 2: | Housing costs |
+| 3: | Utilities     |
+| 4: |Telephone bill |
+| 5: |Daily necessities costs|
+| 6: | Leisure costs |
+| 7: | Transport ation cost |
+| 8: | Clothing costs |
 
 
 ### Result for prediction:
