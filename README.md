@@ -14,16 +14,16 @@ However, manually inputting each category for every operation can be cumbersome.
 　　　
 | Recipient        | Payment Amount | Category ID |
 | ---------------- | -------------- | ----------- |
-|etc sapporominami | 910.0          | 7           |
-|bag               | 10510.0        | 8           |                  
-|milk              | 200.0          | 1           |                 
-|convenience store | 1608.0         | 1           |
-|convenience store | 1288.0         | 1           |
-|   ...            | ...            | ...         |
-|eneos             | 623.0          | 7           |
-|zozotown          | 7140.0         | 8           |
-|rakuten pay noma  | 3520.0         | 8           |
-| skyticket        | 26680.0        | 6           |
+|etc sapporominami | 910            | 7           |
+|bag               | 10510          | 8           |                  
+|milk              | 200            | 1           |                 
+|convenience store | 1608           | 1           |
+|convenience store | 1288           | 1           |
+|   ..........     |   ..........   |  .........  |
+|eneos             | 623            | 7           |
+|zozotown          | 7140           | 8           |
+|rakuten pay noma  | 3520           | 8           |
+| skyticket        | 26680          | 6           |
            
 
 
