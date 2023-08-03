@@ -55,14 +55,14 @@ However, manually inputting each category for every operation can be cumbersome.
 
 ### Category:
 
-| 1: | Grocery bills |
-| 2: | Housing costs |
-| 3: | Utilities     |
-| 4: |Telephone bill |
+| 1: | Grocery bills         |
+| 2: | Housing costs         |
+| 3: | Utilities             |
+| 4: |Telephone bill         |
 | 5: |Daily necessities costs|
-| 6: | Leisure costs |
-| 7: | Transport ation cost |
-| 8: | Clothing costs |
+| 6: | Leisure costs         |
+| 7: | Transport ation cost  |
+| 8: | Clothing costs        |
 
 
 ### Result for prediction:
