@@ -55,6 +55,8 @@ However, manually inputting each category for every operation can be cumbersome.
 
 ### Category:
 
+|num | category              |
+|----|-----------------------|
 | 1: | Grocery bills         |
 | 2: | Housing costs         |
 | 3: | Utilities             |
